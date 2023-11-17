@@ -3155,9 +3155,13 @@ $transMenu: 0.5s;
 
 .authorsProject {
   margin-top: 4.5rem;
+  @media (max-width: 576px) {
+    margin-top: -25rem;
 
+  }
   .container {
-
+    border-top: 1px solid rgba(153, 153, 153, 0.38);
+    padding-top: 2rem;
     .head {
       color: #303030;
       font-size: 1.5rem;
